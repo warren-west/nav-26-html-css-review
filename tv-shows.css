@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+table {
+    background-color: beige;
+    padding: 28px;
+}
+
+td {
+    padding: 16px;
+    border-right: 1px lightgray solid;
+    border-bottom: 1px lightgray solid;
+}
+
+hr {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%)
+}
+
+.image-with-red-border {
+    border: 2px red solid;
+}
+
+.yellow-background {
+    background-color: yellow;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box {
+    background-color: aquamarine;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+
+#box-2 {
+    margin: 10px 35px 50px 0;
+    /* margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 35px;
+    margin-bottom: 50px; */
+    padding: 5px 100px;
+}
+
+#header-text {
+    color: indigo;
+    text-decoration: underline;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+}
+
+/*
+Selectors:
+1. Tag selectors (least specific)
+2. Class selectors - use "." syntax
+3. ID selectors - use "#" syntax (most specific)
+*/

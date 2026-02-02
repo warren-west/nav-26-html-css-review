@@ -1,0 +1,16 @@
+h1 {
+    color: crimson;
+}
+
+h2 {
+    color: midnightblue;
+}
+
+pre {
+    /* chaining values to a CSS property */
+    border: 1px solid black;
+}
+
+img {
+    border: 16px groove burlywood;
+}

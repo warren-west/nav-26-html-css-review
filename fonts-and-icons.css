@@ -1,0 +1,55 @@
+:root {
+    font-size: 20px;
+}
+
+body {
+    font-size: 12px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.container {
+    margin: 8px;
+    font-size: 5px;
+}
+
+.bungee-regular {
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.big-font {
+    font-size: 3rem;
+}
+
+.smooch-sans {
+    font-family: "Smooch Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    color: #555;
+}
+
+.material-symbols-outlined {
+    /* important is a keyword in CSS to guarantee the value for the CSS property is applied. However, with great power comes great responsibility. Do not OVERUSE this superpower. */
+    font-size: 3.1rem !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+img:hover {
+    filter: brightness(110%) saturate(30%) contrast(110%);
+}
+
+/*
+3 ways to select HTML elements to apply styling:
+1. Tag selector (least specific)
+2. Class selector . syntax
+3. ID selector (most specific) # syntax
+*/
