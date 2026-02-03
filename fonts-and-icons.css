@@ -1,18 +1,9 @@
-:root {
-    font-size: 20px;
-}
-
 body {
     font-size: 12px;
 }
 
 p {
     font-size: 1rem;
-}
-
-.container {
-    margin: 8px;
-    font-size: 5px;
 }
 
 .bungee-regular {
@@ -39,9 +30,7 @@ p {
     font-size: 3.1rem !important;
 }
 
-img {
-    max-width: 100%;
-}
+
 
 img:hover {
     filter: brightness(110%) saturate(30%) contrast(110%);
@@ -53,3 +42,57 @@ img:hover {
 2. Class selector . syntax
 3. ID selector (most specific) # syntax
 */
+
+/* MEDIA QUERIES */
+
+/* Alt + Shift + Arrow Up / Arrow Down */
+/* Mobile-first approach means first catering for mobile users, then desktop / laptop users */
+
+@media (min-width: 0px) and (max-width: 600px) {
+    :root {
+        font-size: 16px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        margin: 8px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    h1 {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 601px) {
+    :root {
+        font-size: 20px;
+    }
+
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .container {
+        margin: 8px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+        width: 480px;
+        object-fit: cover;
+    }
+}
